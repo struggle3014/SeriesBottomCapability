@@ -1,3 +1,5 @@
+<img src="https://gitee.com/struggle3014/picBed/raw/master/name_code.png" div align=center />
+
 # 导读
 
 计算机从业人员要想有所建树，需要具备计算机底层能力。常见的能力包括以下几类：
@@ -16,7 +18,20 @@
 
 # 目录
 
-[TOC]
+<nav>
+<a href='#导读' style='text-decoration:none;font-weight:bolder'>导读</a><br/>
+<a href='#目录' style='text-decoration:none;font-weight:bolder'>目录</a><br/>
+<a href='#正文' style='text-decoration:none;font-weight:bolder'>正文</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='#1 计算机组成原理' style='text-decoration:none;${border-style}'>1 计算机组成原理</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='#2 操作系统' style='text-decoration:none;${border-style}'>2 操作系统</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='#3 数据结构与算法' style='text-decoration:none;${border-style}'>3 数据结构与算法</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='#4 计算机网路' style='text-decoration:none;${border-style}'>4 计算机网路</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='#5 汇编' style='text-decoration:none;${border-style}'>5 汇编</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='#6 数据库' style='text-decoration:none;${border-style}'>6 数据库</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='#7 软件工程' style='text-decoration:none;${border-style}'>7 软件工程</a><br/>
+<a href='#总结' style='text-decoration:none;font-weight:bolder'>总结</a><br/>
+<a href='#参考文献' style='text-decoration:none;font-weight:bolder'>参考文献</a><br/>
+</nav>
 
 # 正文
 
