@@ -24,7 +24,7 @@ public class Code02_BubbleSort {
         for (int i = 0; i < testTimes; i++) {
             int[] arr1 = LogarithmUtil.generateRandomArr(maxSize, maxValue);
             int[] arr2 = arr1.clone();
-            Code02_BubbleSort.bubbleSort(arr1);
+            bubbleSort(arr1);
             Arrays.sort(arr2);
             if(!LogarithmUtil.isEqual(arr1, arr2)) {
                 isSuccess = false;

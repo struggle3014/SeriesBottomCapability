@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
  * @Email: yue_zhou@xinyan.com
  * @Date: 23:16 2020/9/12
  * @Version: 1.0
- * @Description: 机会有序数组排序
+ * @Description: 几乎有序数组排序
  * 题：已知一个几乎有序的数组。几乎有序是指，如果把数组排好顺序的话，
  * 每个元素移动的距离一定不超过 k，并且 k 相对于数组长度来说是比较小的。
  * 选择合适的排序策略，对数组进行排序。
