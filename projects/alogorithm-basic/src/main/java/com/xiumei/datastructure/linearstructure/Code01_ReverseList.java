@@ -29,7 +29,7 @@ public class Code01_ReverseList {
     }
 
     /**
-     * 反转单项链表
+     * 反转单向链表
      * @param head
      * @return
      */
