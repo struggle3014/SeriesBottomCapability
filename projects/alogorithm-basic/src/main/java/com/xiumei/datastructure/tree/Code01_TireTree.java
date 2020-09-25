@@ -11,7 +11,7 @@ import java.util.HashMap;
  * @Version: 1.0
  * @Description: 字典树
  **/
-public class TireTree {
+public class Code01_TireTree {
 
     public static void main(String[] args) {
         // 1- 对数器基础参数设置
