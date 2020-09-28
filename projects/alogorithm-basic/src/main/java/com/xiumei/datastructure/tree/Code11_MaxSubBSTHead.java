@@ -20,13 +20,13 @@ public class Code11_MaxSubBSTHead {
         // 2- 对数过程执行
         for (int i = 0; i < testTimes; i++) {
             Node head = generateRandomBST(maxLevel, maxValue);
-            if(maxSubBSTHead(head) != processUsingRecursionRoutine(head).maxSubBSTHead) {
+            if(maxSubBSTHead(head) != maxSubBSTHeadUsingRecursionRoutine(head)) {
                 System.out.println("----head----");
                 printTree(head);
                 System.out.println("----maxSubBSTHead----");
                 printTree(maxSubBSTHead(head));
                 System.out.println("----processUsingRecursionRoutine----");
-                printTree(processUsingRecursionRoutine(head).maxSubBSTHead);
+                printTree(maxSubBSTHeadUsingRecursionRoutine(head));
                 isSuccess = false;
                 break;
             }
@@ -189,6 +189,23 @@ public class Code11_MaxSubBSTHead {
         }
     }
 
+    /**
+     * 使用二叉树递归套路查找最大二叉子搜索树的头节点
+     * @param head 头节点
+     * @return
+     */
+    public static Node maxSubBSTHeadUsingRecursionRoutine(Node head) {
+        if(head == null) {
+            return null;
+        }
+        return processUsingRecursionRoutine(head).maxSubBSTHead;
+    }
+
+    /**
+     * 处理过程
+     * @param X X 节点
+     * @return
+     */
     public static Info processUsingRecursionRoutine(Node X) {
         Info baseCaseInfo = new Info(null, 0, true, Integer.MAX_VALUE, Integer.MIN_VALUE);
         if(X == null) { // base case
