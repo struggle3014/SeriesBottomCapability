@@ -63,7 +63,6 @@ public class Code11_MaxSubBSTHead {
         val = getSpace(lenL) + val + getSpace(lenR);
         System.out.println(getSpace(height * len) + val);
         printInorder(head.left, height+1, "^", len);
-
     }
 
     /**
